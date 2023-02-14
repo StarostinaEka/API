@@ -11,7 +11,7 @@ public class Main {
         post.surname = "Иванов";
         post.subscription = true;
 
-        Post birthday = new Date();
+        Date birthday = new Date();
         post.birthday.day = 13;
         post.birthday.month = 6;
         post.birthday.year = 1999;
